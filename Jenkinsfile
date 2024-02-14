@@ -9,7 +9,7 @@ pipeline {
 
     stage('Testing') {
       steps {
-        sh 'php -v'
+        sh ' echo "Testing ..."'
       }
     }
 
